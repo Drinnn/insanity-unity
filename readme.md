@@ -2,8 +2,8 @@
 
 ## Game Mechanics
 - [X] Top down player movement
-- [ ] Player looking at the cursor
-- [ ] Camera follows player
+- [X] Player looking at the cursor
+- [X] Camera follows player
 - [ ] Player shooting
 - [ ] Shooting feedback
 - [ ] Enemies spawn
