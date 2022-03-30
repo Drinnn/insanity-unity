@@ -1,16 +1,20 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class AgentMovement : MonoBehaviour
 {
     private Rigidbody2D _rb;
 
-    [field: SerializeField]
-    public MovementDataSO MovementData { get; set; }
+
+    [field: SerializeField] public MovementDataSO MovementData { get; set; }
 
     [SerializeField] private float currentVelocity = 3;
 
+
     private Vector2 movementDirection;
+
+    [field: SerializeField] public UnityEvent<float> OnVelocityChange { get; set; }
 
     private void Awake()
     {
@@ -42,6 +46,7 @@ public class AgentMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        OnVelocityChange?.Invoke(currentVelocity);
         _rb.velocity = currentVelocity * movementDirection.normalized;
     }
 }

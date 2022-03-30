@@ -1,7 +1,7 @@
 # Insanity
 
 ## Game Mechanics
-- [ ] Top down player movement
+- [X] Top down player movement
 - [ ] Player looking at the cursor
 - [ ] Camera follows player
 - [ ] Player shooting
