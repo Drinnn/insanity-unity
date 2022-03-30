@@ -14,6 +14,6 @@ public class AgentMovement : MonoBehaviour
 
     public void MoveAgent(Vector2 movementInput)
     {
-        _rb.velocity = movementInput.normalized * 3;
+        _rb.velocity = movementInput.normalized * currentVelocity;
     }
 }
