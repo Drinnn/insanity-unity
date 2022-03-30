@@ -140,11 +140,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 487615219038652468, guid: eaf17c42bac99374ab363d2781234eaa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.33
+      value: 13.359
       objectReference: {fileID: 0}
     - target: {fileID: 487615219038652468, guid: eaf17c42bac99374ab363d2781234eaa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.54
+      value: 8.535
       objectReference: {fileID: 0}
     - target: {fileID: 487615219038652468, guid: eaf17c42bac99374ab363d2781234eaa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5389,7 +5389,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 487615219038652468, guid: eaf17c42bac99374ab363d2781234eaa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.401
+      value: -13.269
       objectReference: {fileID: 0}
     - target: {fileID: 487615219038652468, guid: eaf17c42bac99374ab363d2781234eaa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9222,6 +9222,7 @@ GameObject:
   - component: {fileID: 1784145970}
   - component: {fileID: 1784145973}
   - component: {fileID: 1784145974}
+  - component: {fileID: 1784145975}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -9361,6 +9362,26 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1784145975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784145969}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88f5cead0c0b2a4eb05b5900433f8d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AssetsPPU: 16
+  m_RefResolutionX: 320
+  m_RefResolutionY: 180
+  m_UpscaleRT: 1
+  m_PixelSnapping: 0
+  m_CropFrameX: 0
+  m_CropFrameY: 0
+  m_StretchFill: 0
 --- !u!4 &1837846954 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 487615219038652468, guid: eaf17c42bac99374ab363d2781234eaa, type: 3}
@@ -9383,7 +9404,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 487615219038652468, guid: eaf17c42bac99374ab363d2781234eaa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.13
+      value: -13.31
       objectReference: {fileID: 0}
     - target: {fileID: 487615219038652468, guid: eaf17c42bac99374ab363d2781234eaa, type: 3}
       propertyPath: m_LocalPosition.y
