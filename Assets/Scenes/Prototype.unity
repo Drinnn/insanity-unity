@@ -206,6 +206,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  <OnPointerPositionChanged>k__BackingField:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 888477814}
+        m_TargetAssemblyTypeName: AgentRenderer, Assembly-CSharp
+        m_MethodName: FaceDirection
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &407669830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,13 +235,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <MovementData>k__BackingField: {fileID: 11400000, guid: 007222e812ff4cf4bbd2b30c82d1b864, type: 2}
   currentVelocity: 3
-  <OnVelocityChanged>k__BackingField:
+  <OnVelocityChange>k__BackingField:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 888477813}
         m_TargetAssemblyTypeName: AgentAnimations, Assembly-CSharp
         m_MethodName: AnimatePlayer
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -319,6 +334,7 @@ GameObject:
   - component: {fileID: 888477811}
   - component: {fileID: 888477812}
   - component: {fileID: 888477813}
+  - component: {fileID: 888477814}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -420,6 +436,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b59cdb877d0e7e140a8e80dba30d5d96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &888477814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888477809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4c020dd242d1e3439957f711f274135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1136421197
